@@ -1,11 +1,11 @@
 {
-    "name": "pickme",
-    "short_name": "pickme",
+    "name": "PickMe",
+    "short_name": "PickMe",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#006A60",
+    "theme_color": "#006A60",
+    "description": "A simple open-source Flutter app that helps users make random decisions.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
