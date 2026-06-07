@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F7FBFA"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="#FFFFFF" stroke="#D7E7E3" stroke-width="2"/>
+  <circle cx="954" cy="184" r="76" fill="#D8F3EC"/>
+  <circle cx="1034" cy="262" r="44" fill="#F9DCC4"/>
+  <rect x="126" y="132" width="424" height="58" rx="16" fill="#006A60"/>
+  <text x="158" y="171" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">PickMe</text>
+  <text x="126" y="258" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#163B36">Simple Decision Helper App</text>
+  <text x="126" y="318" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#49635F">Add options, tap Pick Me, and get a quick random result.</text>
+  <rect x="126" y="382" width="154" height="58" rx="18" fill="#E2F3EF"/>
+  <text x="158" y="419" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#006A60">치킨</text>
+  <rect x="298" y="382" width="142" height="58" rx="18" fill="#FFF1E8"/>
+  <text x="332" y="419" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#8A4B17">피자</text>
+  <rect x="458" y="382" width="176" height="58" rx="18" fill="#EEF0FF"/>
+  <text x="492" y="419" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#35428A">Pick Me</text>
+  <rect x="748" y="318" width="260" height="124" rx="24" fill="#006A60"/>
+  <text x="796" y="374" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#CDEFE8">Result</text>
+  <text x="796" y="412" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">치킨 선택됨</text>
+</svg>

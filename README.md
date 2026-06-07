@@ -11,13 +11,15 @@ PickMe is a small open-source Flutter app for quick random decisions. Add a few 
 - Decision History
 - Material Design UI
 
+## App Preview
+
+![PickMe app intro](docs/images/app-intro.svg)
+
 ## Screenshots
 
-Screenshots will be added after the first public release.
-
-| Home | Result | Dark Mode |
-| --- | --- | --- |
-| Coming soon | Coming soon | Coming soon |
+| Home |
+| --- |
+| ![PickMe home screen](docs/images/screenshot-home.png) |
 
 ## Tech Stack
 
@@ -48,6 +50,8 @@ No payments.
 - Wheel Mode
 - Team Decision Mode
 - Tournament Mode
+
+See the full roadmap in [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## License
 
