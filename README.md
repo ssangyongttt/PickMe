@@ -1,17 +1,54 @@
-# pickme
+# PickMe
 
-A new Flutter project.
+Simple Decision Helper App
+
+PickMe is a small open-source Flutter app for quick random decisions. Add a few options, tap **Pick Me**, and let the app choose one result.
+
+## Features
+
+- Random Decision Picker
+- Multiple Options
+- Decision History
+- Material Design UI
+
+## Screenshots
+
+Screenshots will be added after the first public release.
+
+| Home | Result | Dark Mode |
+| --- | --- | --- |
+| Coming soon | Coming soon | Coming soon |
+
+## Tech Stack
+
+- Flutter
+- Dart
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Privacy
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+No account required.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+No personal information collected.
+
+No analytics.
+
+No ads.
+
+No payments.
+
+## Future Plans
+
+- Wheel Mode
+- Team Decision Mode
+- Tournament Mode
+
+## License
+
+This project is licensed under the MIT License.
