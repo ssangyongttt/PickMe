@@ -53,6 +53,14 @@ No payments.
 
 See the full roadmap in [docs/ROADMAP.md](docs/ROADMAP.md).
 
+## Documentation
+
+- [Project Overview](docs/PROJECT_OVERVIEW.md)
+- [Privacy](docs/PRIVACY.md)
+- [Roadmap](docs/ROADMAP.md)
+- [Maintenance Automation](docs/MAINTENANCE_AUTOMATION.md)
+- [Contributing](CONTRIBUTING.md)
+
 ## License
 
 This project is licensed under the MIT License.
