@@ -88,6 +88,10 @@ class _DecisionPickerPageState extends State<DecisionPickerPage> {
       _showMessage('선택지는 최대 $_maxOptions개까지 추가할 수 있어요.');
       return;
     }
+    if (_options.contains(value)) {
+      _showMessage('이미 추가된 선택지입니다.');
+      return;
+    }
 
     setState(() {
       _options.add(value);
@@ -145,6 +149,11 @@ class _DecisionPickerPageState extends State<DecisionPickerPage> {
         _history.removeRange(_maxHistory, _history.length);
       }
     });
+    await _saveHistory();
+  }
+
+  Future<void> _clearHistory() async {
+    setState(_history.clear);
     await _saveHistory();
   }
 
@@ -213,7 +222,7 @@ class _DecisionPickerPageState extends State<DecisionPickerPage> {
               onClear: _clearOptions,
             ),
             const SizedBox(height: 20),
-            _HistoryList(history: _history),
+            _HistoryList(history: _history, onClear: _clearHistory),
             const SizedBox(height: 16),
             Text(
               'No login. No ads. No analytics.',
@@ -429,16 +438,31 @@ class _OptionList extends StatelessWidget {
 }
 
 class _HistoryList extends StatelessWidget {
-  const _HistoryList({required this.history});
+  const _HistoryList({required this.history, required this.onClear});
 
   final List<String> history;
+  final VoidCallback onClear;
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('최근 결과', style: Theme.of(context).textTheme.titleMedium),
+        Row(
+          children: <Widget>[
+            Expanded(
+              child: Text(
+                '최근 결과',
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            ),
+            TextButton.icon(
+              onPressed: history.isEmpty ? null : onClear,
+              icon: const Icon(Icons.clear_all),
+              label: const Text('기록 삭제'),
+            ),
+          ],
+        ),
         const SizedBox(height: 8),
         if (history.isEmpty)
           const _EmptyCard(message: '최근 결과가 없습니다.')
